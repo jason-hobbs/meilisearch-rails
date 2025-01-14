@@ -1,5 +1,5 @@
 unless defined? Kaminari
-  raise(MeiliSearch::BadConfiguration,
+  raise(Meilisearch::BadConfiguration,
         "Meilisearch: Please add 'kaminari' to your Gemfile to use kaminari pagination backend")
 end
 

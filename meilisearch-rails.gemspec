@@ -5,7 +5,7 @@ require 'meilisearch/rails/version'
 
 Gem::Specification.new do |s|
   s.name = 'meilisearch-rails'
-  s.version = MeiliSearch::Rails::VERSION
+  s.version = Meilisearch::Rails::VERSION
 
   s.authors = ['Meili']
   s.email = 'bonjour@meilisearch.com'
